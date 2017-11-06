@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://qlcplus.sourceforge.net/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.9.0</Version>
+  <Author>spezi</Author>
+ </Creator>
+ <Manufacturer>Stairville</Manufacturer>
+ <Model>LED-PAR64</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="ROT">
+  <Group Byte="1">Colour</Group>
+  <Capability Color="#ff0000" Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Grün">
+  <Group Byte="1">Colour</Group>
+  <Capability Color="#16ff00" Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Blau">
+  <Group Byte="1">Colour</Group>
+  <Capability Color="#0026ff" Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Macro">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Geschw/Strobe">
+  <Group Byte="0">Effect</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Modus">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Master DIM">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+</FixtureDefinition>

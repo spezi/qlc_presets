@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://qlcplus.sourceforge.net/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.9.0</Version>
+  <Author>spezi</Author>
+ </Creator>
+ <Manufacturer>Stairville</Manufacturer>
+ <Model>LED BAR 126 RGB</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Modus">
+  <Group Byte="0">Effect</Group>
+ </Channel>
+ <Channel Name="geschwindigkeit">
+  <Group Byte="0">Speed</Group>
+ </Channel>
+ <Channel Name="rot">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="grün">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="blau">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="rot 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="grün 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="blau 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="rot 1 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="grün 1 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="blau 1 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+</FixtureDefinition>
